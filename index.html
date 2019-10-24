@@ -1,13 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>
- <title>Exercice 6 - JS</title>
- <meta charset="UTF-8">
- <script src="assets/js/monscript.js"></script>
+  <title>Java</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
- <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
-<label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
-<button id="submit" onclick='reste()' name="submit">Valider</button>
+  <form>
+    <h1>Questionnaire</h1>
+    <label for="shoeSize">Ta pointure : </label><input type="text" id="shoeSize" name="shoeSize"/><br/>
+    <label for="yearOfBirth">Ton année de naissance : </label><input type="text" id="yearOfBirth" name="yearOfBirth"/><br/>
+    <button id="submit" name="submit">Valider</button>
+  </form>
+  <script src="assets/js/monscript.js"></script>
 </body>
 </html>
